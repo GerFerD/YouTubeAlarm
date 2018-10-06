@@ -1,9 +1,9 @@
 import os
 import time
 
-seconds = int(5)
-minutes = int(0)
-hours = int(1)
+hours = int(input('Please enter the desired number of hours: '))
+minutes = int(input('Please enter the desired number of minutes: '))
+seconds = int(input('Please enter the desired number of seconds: '))
 
 start = input('Enter "R" to start timer.')
 
